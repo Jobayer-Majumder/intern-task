@@ -7,6 +7,7 @@ const customStyles = {
         left: '50%',
         bottom: 'auto',
         width: '90%',
+        height: '80vh',
         marginRight: '-50%',
         transform: 'translate(-50%, -50%)',
     }
@@ -39,7 +40,7 @@ const BreedDetails = ({ modalIsOpen, setIsOpen, breed }) => {
 
                     
                     <div className="container bg-light p-3 rounded">
-                        <div className='text-end'>
+                        <div className='text-end mb-3'>
                             <button className='btn btn-outline-danger' onClick={() => setIsOpen(false)}>close</button>
                         </div>
                         <div className="row row-cols-md-2">
